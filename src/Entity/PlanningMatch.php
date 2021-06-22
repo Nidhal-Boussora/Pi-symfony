@@ -49,11 +49,6 @@ class PlanningMatch
      */
     private $heure;
 
-    /**
-     * @ORM\Column(type="string", length=20)
-     */
-    private $adversaire;
-
     public function getId(): ?int
     {
         return $this->id;
@@ -131,15 +126,4 @@ class PlanningMatch
         return $this;
     }
 
-    public function getAdversaire(): ?string
-    {
-        return $this->adversaire;
-    }
-
-    public function setAdversaire(string $adversaire): self
-    {
-        $this->adversaire = $adversaire;
-
-        return $this;
-    }
 }

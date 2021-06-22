@@ -10,7 +10,7 @@ use Doctrine\Migrations\AbstractMigration;
 /**
  * Auto-generated Migration: Please modify to your needs!
  */
-final class Version20210622003657 extends AbstractMigration
+final class Version20210622214756 extends AbstractMigration
 {
     public function getDescription(): string
     {
@@ -21,7 +21,7 @@ final class Version20210622003657 extends AbstractMigration
     {
         // this up() migration is auto-generated, please modify it to your needs
         $this->addSql('CREATE TABLE planning_entrainement (id INT AUTO_INCREMENT NOT NULL, equipe VARCHAR(20) NOT NULL, nbr_joueurs VARCHAR(2) NOT NULL, stade VARCHAR(20) NOT NULL, date DATE NOT NULL, heure TIME NOT NULL, commentaire VARCHAR(255) NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB');
-        $this->addSql('CREATE TABLE planning_match (id INT AUTO_INCREMENT NOT NULL, equipe1 VARCHAR(20) NOT NULL, equipe2 VARCHAR(20) NOT NULL, stade VARCHAR(20) NOT NULL, type VARCHAR(20) NOT NULL, date DATE NOT NULL, heure TIME NOT NULL, adversaire VARCHAR(20) NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB');
+        $this->addSql('CREATE TABLE planning_match (id INT AUTO_INCREMENT NOT NULL, equipe1 VARCHAR(20) NOT NULL, equipe2 VARCHAR(20) NOT NULL, stade VARCHAR(20) NOT NULL, type VARCHAR(20) NOT NULL, date DATE NOT NULL, heure TIME NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB');
         $this->addSql('CREATE TABLE planning_test (id INT AUTO_INCREMENT NOT NULL, titre VARCHAR(20) NOT NULL, type VARCHAR(20) NOT NULL, lieu VARCHAR(20) NOT NULL, date DATE NOT NULL, heure TIME NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB');
     }
 
