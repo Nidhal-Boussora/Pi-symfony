@@ -22,27 +22,27 @@ class PlanningTest
     /**
      * @ORM\Column(type="string", length=20)
      */
-    private $Titre;
+    private $titre;
 
     /**
      * @ORM\Column(type="string", length=20)
      */
-    private $Type;
+    private $type;
 
     /**
      * @ORM\Column(type="string", length=20)
      */
-    private $Lieu;
+    private $lieu;
 
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="string")
      */
-    private $Date;
+    private $date;
 
     /**
-     * @ORM\Column(type="time")
+     * @ORM\Column(type="string")
      */
-    private $Heure;
+    private $heure;
 
     public function getId(): ?int
     {
@@ -51,60 +51,60 @@ class PlanningTest
 
     public function getTitre(): ?string
     {
-        return $this->Titre;
+        return $this->titre;
     }
 
-    public function setTitre(string $Titre): self
+    public function setTitre(string $titre): self
     {
-        $this->Titre = $Titre;
+        $this->titre = $titre;
 
         return $this;
     }
 
     public function getType(): ?string
     {
-        return $this->Type;
+        return $this->type;
     }
 
-    public function setType(string $Type): self
+    public function setType(string $type): self
     {
-        $this->Type = $Type;
+        $this->type = $type;
 
         return $this;
     }
 
     public function getLieu(): ?string
     {
-        return $this->Lieu;
+        return $this->lieu;
     }
 
-    public function setLieu(string $Lieu): self
+    public function setLieu(string $lieu): self
     {
-        $this->Lieu = $Lieu;
+        $this->lieu = $lieu;
 
         return $this;
     }
 
-    public function getDate(): ?\DateTimeInterface
+    public function getDate(): ?string
     {
-        return $this->Date;
+        return $this->date;
     }
 
-    public function setDate(\DateTimeInterface $Date): self
+    public function setDate(string $date): self
     {
-        $this->Date = $Date;
+        $this->date = $date;
 
         return $this;
     }
 
-    public function getHeure(): ?\DateTimeInterface
+    public function getHeure(): ?string
     {
-        return $this->Heure;
+        return $this->heure;
     }
 
-    public function setHeure(\DateTimeInterface $Heure): self
+    public function setHeure(string $heure): self
     {
-        $this->Heure = $Heure;
+        $this->heure = $heure;
 
         return $this;
     }
