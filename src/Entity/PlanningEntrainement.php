@@ -27,7 +27,7 @@ class PlanningEntrainement
     /**
      * @ORM\Column(type="string", length=2)
      */
-    private $nbr_joueurs;
+    private $nbrJoueurs;
 
     /**
      * @ORM\Column(type="string", length=20)
@@ -68,12 +68,12 @@ class PlanningEntrainement
 
     public function getNbrJoueurs(): ?string
     {
-        return $this->nbr_joueurs;
+        return $this->nbrJoueurs;
     }
 
-    public function setNbrJoueurs(string $nbr_joueurs): self
+    public function setNbrJoueurs(string $nbrJoueurs): self
     {
-        $this->nbr_joueurs = $nbr_joueurs;
+        $this->nbrJoueurs = $nbrJoueurs;
 
         return $this;
     }
