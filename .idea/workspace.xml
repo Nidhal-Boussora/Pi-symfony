@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PhpIncludePathManager">
+  <component name="ChangeListManager">
+    <list default="true" id="439a7dc3-a40a-440a-a9de-9f37df1cfa27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/security/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
@@ -94,5 +116,70 @@
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+  <component name="ProjectId" id="1uaCn2ARoQYHcPcOcYR6ePhf18n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../AngularProjet/Pi-angular9" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="439a7dc3-a40a-440a-a9de-9f37df1cfa27" name="Default Changelist" comment="" />
+      <created>1624894475830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624894475830</updated>
+      <workItem from="1624894476908" duration="1206000" />
+      <workItem from="1624896476495" duration="1918000" />
+      <workItem from="1624900218255" duration="788000" />
+      <workItem from="1625651635058" duration="133000" />
+      <workItem from="1625652299399" duration="11811000" />
+      <workItem from="1625916086847" duration="99000" />
+      <workItem from="1625916363160" duration="5287000" />
+      <workItem from="1626007460595" duration="5550000" />
+      <workItem from="1626018950173" duration="302000" />
+      <workItem from="1626022472333" duration="5991000" />
+      <workItem from="1626083432677" duration="2124000" />
+      <workItem from="1626085837190" duration="1127000" />
+      <workItem from="1626087807239" duration="2780000" />
+      <workItem from="1626114774472" duration="1699000" />
+      <workItem from="1626118049325" duration="5189000" />
+      <workItem from="1627212706302" duration="1892000" />
+      <workItem from="1627216808755" duration="316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1625654793641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1625654793641" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1626085218385">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1626085218385" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1626026886582">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1626026886582" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1627213605646">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627213605646" />
+    <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1626086990849">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1626086990849" />
+  </component>
 </project>

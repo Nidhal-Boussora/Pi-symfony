@@ -11,6 +11,7 @@
         "doctrine/doctrine-bundle": "^2.4",
         "doctrine/doctrine-migrations-bundle": "^3.1",
         "doctrine/orm": "^2.9",
+        "jms/serializer-bundle": "^3.9",
         "nelmio/cors-bundle": "^2.1",
         "phpdocumentor/reflection-docblock": "^5.2",
         "symfony/asset": "4.4.*",
@@ -74,6 +75,7 @@
         }
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.32"
+        "symfony/maker-bundle": "^1.32",
+        "symfony/web-server-bundle": "4.4.*"
     }
 }
